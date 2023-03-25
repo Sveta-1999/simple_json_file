@@ -1,0 +1,64 @@
+{
+    "people": [
+        {
+            "name": "John Doe",
+            "age": 27,
+            "address":  {
+                "street": "123 Main St",
+                "city": "Anytown",
+                "state": "CA"
+            },
+            "gender": "Male",
+            "height": 175,
+            "weight": 70
+        },
+        {
+            "name": "Jane Smith",
+            "age": 30,
+            "address":  {
+                "street": "123 Main St",
+                "city": "Anytown",
+                "state": "CA"
+            },
+            "gender": "Female",
+            "height": 165,
+            "weight": 60
+        },
+        {
+            "name": "Bob Johnson",
+            "age": 20,
+            "address":  {
+                "street": "123 Main St",
+                "city": "Anytown",
+                "state": "CA"
+            },
+            "gender": "Male",
+            "height": 180,
+            "weight": 80
+        },
+        {
+            "name": "Joanne Duklas",
+            "age": 31,
+            "address":  {
+                "street": "123 Main St",
+                "city": "Anytown",
+                "state": "CA"
+            },
+            "gender": "Female",
+            "height": 175,
+            "weight": 70
+        },
+        {
+            "name": "Jane Johnson",
+            "age": 18,
+            "address":  {
+                "street": "123 Main St",
+                "city": "Anytown",
+                "state": "CA"
+            },
+            "gender": "Female",
+            "height": 165,
+            "weight": 60
+        }
+    ]
+}
