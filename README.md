@@ -17,4 +17,4 @@ To compile the program, you need to have the nlohmann/json library installed on 
 
 Once you have downloaded the library, extract it to a directory of your choice. Then, navigate to the directory where you have saved the source code for the program and open a terminal window.
 
-To use Makefile, navigate to the directory containing the Makefile and run the command make. This will execute the default all target and generate the executable file main. To run the program, use the command make run. To remove all generated files, use the command make clean.
+To use Makefile, navigate to the directory containing the Makefile and run the command make. This will execute the default all target and generate the executable file main. To run the program, use the command "make run". To remove all generated files, use the command "make clean".
