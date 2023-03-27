@@ -6,8 +6,11 @@
 
 
 using json = nlohmann::json;
-#include "../my_include/parsing.hpp"
-#include "../my_include/processing.hpp"
+#include "address.hpp"
+#include "person.hpp"
+#include "parsing.hpp"
+#include "processing.hpp"
+
 
 
 int main() {
