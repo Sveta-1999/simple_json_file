@@ -5,21 +5,32 @@ std::vector<Person>& readAndParse(std::vector<Person>& people) {
     std::getline(std::cin, input_path);
 
     std::ifstream file(input_path);
+    if (file.is_open()) {
+        std::cout << "File is open" << std::endl;
+    } else {
+        std::cout << "File is not open" << std::endl;
+    }
     json j;
     file >> j;
 
-   for (auto& p : j["people"]) {
-        Person person;
-        person.name = p["name"];
-        person.age = p["age"];
-        person.address.street = p["address"]["street"];
-        person.address.city = p["address"]["city"];
-        person.address.state = p["address"]["state"];
-        person.gender = p["gender"];
-        person.height = p["height"];
-        person.weight = p["weight"];
-        people.push_back(person);
-    }
+  for (auto& p : j["people"]) {
+    Person person;
+    person.setName(p["name"]);
+    person.setAge(p["age"]);
+
+    Address address;
+    address.setStreet(p["address"]["street"]);
+    address.setCity(p["address"]["city"]);
+    address.setState(p["address"]["state"]);
+
+    person.setAddress(address);
+
+    person.setGender(p["gender"]);
+    person.setHeight(p["height"]);
+    person.setWeight(p["weight"]);
+
+    people.push_back(person);
+}
 
     return people;
 }
