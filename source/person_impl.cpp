@@ -1,4 +1,5 @@
 #include "person.hpp"
+#include <string>
 
 void Person::setName(std::string nam) {
     name = nam;
@@ -34,7 +35,7 @@ std::string Person::getGender() const {
     return gender;
 }
 
-void Person::SetHeight(int heigh) {
+void Person::setHeight(int heigh) {
     height = heigh;
 }
     

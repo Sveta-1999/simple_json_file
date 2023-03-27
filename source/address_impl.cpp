@@ -1,4 +1,5 @@
 #include "address.hpp"
+#include <string>
 
 void Address::setStreet(std::string str) {
     street = str;

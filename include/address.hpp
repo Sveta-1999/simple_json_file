@@ -1,3 +1,8 @@
+#ifndef ADDRESS_HPP
+#define ADDRESS_HPP
+
+#include <string>
+
 // Define the Address class
 struct Address {
     void setStreet(std::string str);
@@ -14,3 +19,5 @@ private:
     std::string city;
     std::string state;
 };
+
+#endif //ADDRESS_HPP

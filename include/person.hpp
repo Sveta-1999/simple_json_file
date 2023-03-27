@@ -1,3 +1,6 @@
+#ifndef PERSON_HPP
+#define PERSON_HPP
+
 #include "address.hpp"
 
 // Define a data structure to store the parsed information
@@ -28,3 +31,5 @@ private:
     int height;
     int weight;
 };
+
+#endif //PERSON_HPP
