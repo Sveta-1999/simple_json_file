@@ -1,7 +1,7 @@
 CC=g++
 CFLAGS=-std=c++11 -I./include
 LDFLAGS=
- 
+
 SRC=source/main.cpp source/address_impl.cpp source/person_impl.cpp
 OBJ=$(SRC:.cpp=.o)
 EXEC=main
