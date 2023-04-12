@@ -1,4 +1,4 @@
-# Sample_JSON_File
+# Simple_JSON_File
 
 
 <b> How to run: </b>
